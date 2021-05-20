@@ -20,6 +20,7 @@
         <pathelement location="bin"/>
     	<fileset dir="lib" includes="**/*.jar" />
         <path refid="ox.classpath"/>
+    	<path refid="bowser.classpath"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
